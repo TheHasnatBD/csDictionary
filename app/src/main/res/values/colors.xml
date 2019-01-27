@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="colorBlack">#000</color>
+    <color name="colorWhite">#fff</color>
+    <color name="colorRed">#ec1f24</color>
+    <color name="colorPink">#d91f63</color>
+    <color name="colorGreen">#00911d</color>
+    <color name="colorLightGray">#d7d7d7</color>
+    <color name="colorGray">#a1a1a1</color>
+    <color name="colorDeepGray">#747474</color>
+    <color name="colorBlue">#2b71fd</color>
+    <color name="color">#D81B60</color>
+    <color name="blue_link">#257df1</color>
+
+
+    <!-- Slider Screens background -->
+    <color name="bg_screen1">#ffffff</color>
+    <color name="bg_screen2">#ffffff</color>
+    <color name="bg_screen3">#ffffff</color>
+
+    <!-- Slider Screens dots active colors -->
+    <color name="dot_active">#aaa</color>
+    <!-- Slider Screens dots in-active colors -->
+    <color name="dot_inactive">#ffffff</color>
+
+</resources>
