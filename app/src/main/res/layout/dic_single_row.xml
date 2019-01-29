@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="2.5dp"
+    android:layout_marginStart="2.5dp"
+    android:layout_marginEnd="2.5dp"
+    android:descendantFocusability="blocksDescendants"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+   >
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:descendantFocusability="blocksDescendants"
+        android:id="@+id/cv"
+        card_view:cardCornerRadius="5dp"
+        card_view:cardBackgroundColor="#E9EDF1">
+      <!--card_view:cardElevation="2dp"
+        card_view:cardMaxElevation="4dp"-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:padding="16dp"
+            android:descendantFocusability="blocksDescendants"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:id="@+id/word_layout"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/wordTv"
+                    android:textColor="#000"
+                    android:textSize="16sp"
+                />
+
+            </LinearLayout>
+
+            <!-- For recycler item clicking, expandable item -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@+id/word_layout"
+                android:visibility="gone"
+                android:id="@+id/expandableLayout" >
+
+                <View
+                    android:id="@+id/view"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#3c4042" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/view"
+                        android:text="definition:"
+                        android:textStyle="italic"
+                        android:layout_margin="1dp"
+                        android:gravity="start|center"
+                        android:textColor="#000"
+                        android:id="@+id/defH"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/defH"
+                        android:id="@+id/fullDefinitionTV"
+                        android:textColor="#606062"
+                        android:gravity="left"
+                        android:layout_margin="1dp"
+                        />
+            </RelativeLayout>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

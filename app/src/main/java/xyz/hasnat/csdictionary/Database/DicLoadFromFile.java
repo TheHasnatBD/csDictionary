@@ -1,10 +1,10 @@
-package xyz.hasnat.csdictionary;
+package xyz.hasnat.csdictionary.Database;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.List;
 
+import xyz.hasnat.csdictionary.Database.DicDatabaseHelper;
 import xyz.hasnat.csdictionary.Model.Word;
 
 public class DicLoadFromFile {

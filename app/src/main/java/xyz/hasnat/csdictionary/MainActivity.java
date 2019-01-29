@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
-import android.view.View;
 import android.widget.Toast;
 
 import java.io.BufferedReader;
@@ -17,6 +16,8 @@ import java.util.List;
 
 import xyz.hasnat.csdictionary.Adapter.WordListAdapterRV;
 import xyz.hasnat.csdictionary.Constant.Constant;
+import xyz.hasnat.csdictionary.Database.DicDatabaseHelper;
+import xyz.hasnat.csdictionary.Database.DicLoadFromFile;
 import xyz.hasnat.csdictionary.Model.Word;
 
    public class MainActivity extends AppCompatActivity {

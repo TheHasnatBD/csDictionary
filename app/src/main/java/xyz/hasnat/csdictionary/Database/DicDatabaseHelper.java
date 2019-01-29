@@ -1,4 +1,4 @@
-package xyz.hasnat.csdictionary;
+package xyz.hasnat.csdictionary.Database;
 
 import android.content.ContentValues;
 import android.content.Context;
