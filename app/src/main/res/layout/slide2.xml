@@ -23,7 +23,7 @@
 
 
         <ImageView
-            android:src="@drawable/document"
+            android:src="@drawable/dictionary"
             android:layout_width="@dimen/img_width"
             android:layout_height="@dimen/img_height"
             />

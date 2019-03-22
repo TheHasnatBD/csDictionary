@@ -47,16 +47,16 @@ public class WordListAdapterRV extends RecyclerView.Adapter<WordListAdapterRV.Wo
             @Override
             public void onClick(View view) {
                 viewHolder.expandableLayout.setVisibility(View.VISIBLE);
-                viewHolder.expandableLayout.animate().alpha(1.0f).setDuration(1000);
-                viewHolder.expandableLayout.clearAnimation();
+                //viewHolder.expandableLayout.animate().alpha(1.0f).setDuration(1000);
+                //viewHolder.expandableLayout.clearAnimation();
             }
         });
 
         viewHolder.expandableLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                viewHolder.expandableLayout.animate().alpha(0.0f).setDuration(1000);
-                viewHolder.expandableLayout.clearAnimation();
+                //viewHolder.expandableLayout.animate().alpha(0.0f).setDuration(1000);
+                //viewHolder.expandableLayout.clearAnimation();
 
                 viewHolder.expandableLayout.setVisibility(View.GONE);
             }

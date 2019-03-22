@@ -2,11 +2,12 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:paddingTop="03dp"
-    android:background="#EDF6FC"
-    >
+    android:background="#E9FAF8">
 
     <LinearLayout
+        android:visibility="visible"
         android:id="@+id/upLay"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -16,16 +17,41 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="2.5dp"
-            android:layout_weight="9"
+            android:layout_weight="8"
+            app:queryHint="Type a word"
+            app:defaultQueryHint="Search a word"
+            app:iconifiedByDefault="false"
             android:id="@+id/searchView"/>
-        <ImageView
+        <ImageButton
+            android:onClick="recordVoice"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_mic_b"
+            android:background="@android:color/transparent"
+            />
+        <ImageButton
+            android:onClick="moreOptions"
             android:layout_marginTop="8dp"
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_more_vert"/>
-
+            android:src="@drawable/ic_more_vert"
+            android:background="@android:color/transparent"
+            />
     </LinearLayout>
+
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/no_wordTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No word found"
+        android:layout_below="@+id/upLay"
+        android:gravity="center_horizontal"
+        android:textSize="18sp"/>
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/word_listRV"

@@ -9,13 +9,9 @@
     <string name="next">next</string>
     <string name="skip">skip</string>
     <string name="start">Done</string>
-    <string name="title_slide1">Cloud based Dairy</string>
-    <string name="desc_slide1">BU Dairy keeps your notes securely store in your personal account</string>
-    <string name="title_slide2">bus schedule</string>
-    <string name="desc_slide2">Interactive bus schedule with remaining time and custom reminder</string>
-    <string name="title_slide3">Holidays</string>
-    <string name="desc_slide3">List of academic and govt. holidays with notification</string>
-    <string name="title_slide4">Important Contacts</string>
-    <string name="desc_slide4">ONE CLICK emergency contacts with all faculties and stuffs &amp; CLUBS contact</string>
+    <string name="title_slide1">collection of words</string>
+    <string name="desc_slide1">Big database for computer science\'s words and short form</string>
+    <string name="title_slide2">search a word</string>
+    <string name="desc_slide2">Live search for hand typing and voice search</string>
 
 </resources>

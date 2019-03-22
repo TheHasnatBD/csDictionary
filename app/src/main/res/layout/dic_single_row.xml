@@ -2,9 +2,9 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginTop="2.5dp"
-    android:layout_marginStart="2.5dp"
-    android:layout_marginEnd="2.5dp"
+    android:layout_marginTop="3dp"
+    android:layout_marginStart="5dp"
+    android:layout_marginEnd="5dp"
     android:descendantFocusability="blocksDescendants"
     xmlns:card_view="http://schemas.android.com/apk/res-auto"
    >
@@ -14,8 +14,9 @@
         android:layout_height="wrap_content"
         android:descendantFocusability="blocksDescendants"
         android:id="@+id/cv"
-        card_view:cardCornerRadius="5dp"
-        card_view:cardBackgroundColor="#E9EDF1">
+        card_view:cardCornerRadius="1.2dp"
+        card_view:cardBackgroundColor="#D0F1ED"
+        >
       <!--card_view:cardElevation="2dp"
         card_view:cardMaxElevation="4dp"-->
         <RelativeLayout

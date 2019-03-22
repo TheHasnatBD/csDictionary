@@ -8,7 +8,7 @@
         android:layout_marginTop="30dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Welcome to BU Diary"
+        android:text="CS Dictionary"
         android:textColor="@android:color/white"
         android:textSize="34sp"
         android:textStyle="normal"
@@ -22,7 +22,7 @@
         android:orientation="vertical">
 
         <ImageView
-            android:src="@drawable/document"
+            android:src="@drawable/dictionary"
             android:layout_width="@dimen/img_width"
             android:layout_height="@dimen/img_height"
             />
