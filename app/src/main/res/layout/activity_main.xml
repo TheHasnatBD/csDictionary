@@ -3,8 +3,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:paddingTop="03dp"
-    android:background="#E9FAF8">
+    android:background="#E9FAF8"
+    tools:context=".MainActivity">
 
     <LinearLayout
         android:visibility="visible"
@@ -42,16 +44,6 @@
             />
     </LinearLayout>
 
-
-    <TextView
-        android:visibility="gone"
-        android:id="@+id/no_wordTv"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="No word found"
-        android:layout_below="@+id/upLay"
-        android:gravity="center_horizontal"
-        android:textSize="18sp"/>
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/word_listRV"

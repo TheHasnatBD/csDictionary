@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".WelcomeSlider.WelcomeActivity"
+        <activity android:name=".intro_slider.WelcomeActivity"
             android:configChanges="orientation|screenSize"
             android:theme="@style/AppTheme.Launcher">
             <intent-filter>
@@ -19,7 +19,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".WelcomeSlider.IntroActivity"
+        <activity android:name=".intro_slider.IntroActivity"
             android:configChanges="orientation|screenSize"></activity>
 
         <activity android:name=".MainActivity"
